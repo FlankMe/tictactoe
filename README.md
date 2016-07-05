@@ -8,9 +8,9 @@ I applied the following updating formula:
 >Q(s) <- Q(s) + alpha * [ Reward + gamma*Q(S_t+1) - Q(S_t)] * Tr(s)
 
 ### Quick Start
-Download 'tictactoe v3.0.py', 'menu.py', and 'TicTacToe_parameters' to the same folder. Then, launch 'tictactoe v3.0.py'.  
+Download `tictactoe v3.0.py`, `menu.py`, and `TicTacToe_parameters` to the same folder. Then, launch `tictactoe v3.0.py`.  
 You will be able to play against the agent. You can choose whether you want to start first or not. 
-The agent learnt a perfect strategy already. If the 'TicTacToe_parameters' file is not in the folder, the agent will learn a strategy from scratch (it takes approx 5min).
+The agent learnt a perfect strategy already. If the `TicTacToe_parameters`file is not in the folder, the agent will learn a strategy from scratch (it takes approx 5min).
 
 ### Requirements
 * PyGame. I used version 1.9.2a0.  
