@@ -8,6 +8,16 @@ Created on Sat May 14 21:45:20 2016
 import pygame
 
 def launch(screen):
+    """Simple introductory menu"""   
+    
+    # Define some colors
+    BLACK = (  0,   0,   0)
+    WHITE = (255, 255, 255)
+    RED   = (255,   0,   0)
+    BLUE  = (  0,   0, 255)
+    GREEN = (  0, 100,   0)
+    YELLOW =(255, 250, 205)
+    
     font_menu = pygame.font.Font(None, 24)
     
     menu_running = True
@@ -40,10 +50,3 @@ def launch(screen):
     del menu, font_menu
     return(HUMAN_START)
             
-# Define some colors
-BLACK = (  0,   0,   0)
-WHITE = (255, 255, 255)
-RED   = (255,   0,   0)
-BLUE  = (  0,   0, 255)
-GREEN = (  0, 100,   0)
-YELLOW =(255, 250, 205)
