@@ -1,6 +1,6 @@
 ## TicTacToe
 I applied the TD(lambda) learning method to teach an agent how to play at TicTacToe (TTT).  
-The agent learns by playing against itself.   
+To some extent, the agent learns by playing against itself, although this is not totally accurate.   
 
 As TTT is a deterministic and memoryless game, the agent only needs to work out a state-value function rather than a state/action-value function. In first approximation, the maximum number of states is capped at 6046, hence the number of possible states is small enough to be stored and valued.  
 
