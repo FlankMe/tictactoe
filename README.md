@@ -21,7 +21,7 @@ You can download it from [here][1].
 ### Resources
 Here is some recommended material:
 * `Reinforcement Learning: An Introduction`, PDF notes by Sutton and Barto ([link][2]).  
-* `Reinforcement Learning`, online cource by Udacity ([link][3]).
+* `Reinforcement Learning`, online course by Udacity ([link][3]).
 
 [1]: http://www.pygame.org/download.shtml
 [2]: http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf
